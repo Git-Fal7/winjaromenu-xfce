@@ -1,7 +1,7 @@
 panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o: \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/plugin.cpp \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/plugin.cpp \
  /usr/include/stdc-predef.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/plugin.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/plugin.h \
  /usr/include/c++/11.1.0/string \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -745,8 +745,8 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o: \
  /usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-convenience.h \
  /usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-arrow-button.h \
  /usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/xfce-panel-image.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/applications-page.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/page.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/applications-page.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/page.h \
  /usr/include/c++/11.1.0/map /usr/include/c++/11.1.0/bits/stl_tree.h \
  /usr/include/c++/11.1.0/ext/aligned_buffer.h \
  /usr/include/c++/11.1.0/bits/node_handle.h \
@@ -776,9 +776,9 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o: \
  /usr/include/garcon-1/garcon/garcon-menu-tree-provider.h \
  /usr/include/garcon-1/garcon/garcon-menu-parser.h \
  /usr/include/garcon-1/garcon/garcon-menu-separator.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/command.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/slot.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/window.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/command.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/slot.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/window.h \
  /usr/include/xfce4/libxfce4util/libxfce4util.h \
  /usr/include/xfce4/libxfce4util/libxfce4util-config.h \
  /usr/include/xfce4/libxfce4util/xfce-debug.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin
+# Install script for directory: /home/hitcoder/winjaromenu-xfce/panel-plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/xfce4/panel/plugins/libzorinmenulite.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/xfce4/panel/plugins" TYPE MODULE FILES "/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin/libzorinmenulite.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/xfce4/panel/plugins" TYPE MODULE FILES "/home/hitcoder/winjaromenu-xfce/build/panel-plugin/libzorinmenulite.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/xfce4/panel/plugins/libzorinmenulite.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/xfce4/panel/plugins/libzorinmenulite.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -59,14 +59,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xfce4/panel/plugins" TYPE FILE FILES "/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/zorinmenulite.desktop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xfce4/panel/plugins" TYPE FILE FILES "/home/hitcoder/winjaromenu-xfce/panel-plugin/zorinmenulite.desktop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/xfce4-popup-zorinmenulite")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/hitcoder/winjaromenu-xfce/build/xfce4-popup-zorinmenulite")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdocx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE FILE FILES "/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/xfce4-popup-zorinmenulite.1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE FILE FILES "/home/hitcoder/winjaromenu-xfce/panel-plugin/xfce4-popup-zorinmenulite.1")
 endif()
 

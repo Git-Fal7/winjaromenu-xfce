@@ -1,7 +1,7 @@
 panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o: \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/query.cpp \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/query.cpp \
  /usr/include/stdc-predef.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/query.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/query.h \
  /usr/include/c++/11.1.0/string \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \

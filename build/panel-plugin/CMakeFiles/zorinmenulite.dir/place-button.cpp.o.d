@@ -1,7 +1,7 @@
 panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o: \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/place-button.cpp \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/place-button.cpp \
  /usr/include/stdc-predef.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/place-button.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/place-button.h \
  /usr/include/gtk-3.0/gtk/gtk.h /usr/include/gtk-3.0/gdk/gdk.h \
  /usr/include/gtk-3.0/gdk/gdkconfig.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
@@ -678,8 +678,8 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o: \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvscrollbar.h \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvseparator.h \
  /usr/include/gtk-3.0/gtk/gtk-autocleanups.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/slot.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/window.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/slot.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/window.h \
  /usr/include/c++/11.1.0/vector \
  /usr/include/c++/11.1.0/bits/stl_algobase.h \
  /usr/include/c++/11.1.0/bits/functexcept.h \

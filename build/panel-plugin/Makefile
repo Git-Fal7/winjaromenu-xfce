@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin
+CMAKE_SOURCE_DIR = /home/hitcoder/winjaromenu-xfce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build
+CMAKE_BINARY_DIR = /home/hitcoder/winjaromenu-xfce/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin//CMakeFiles/progress.marks
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles 0
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hitcoder/winjaromenu-xfce/build/CMakeFiles /home/hitcoder/winjaromenu-xfce/build/panel-plugin//CMakeFiles/progress.marks
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hitcoder/winjaromenu-xfce/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/clean
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/preinstall
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/preinstall
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 panel-plugin/CMakeFiles/zorinmenulite.dir/rule:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/CMakeFiles/zorinmenulite.dir/rule
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 panel-plugin/CMakeFiles/zorinmenulite.dir/rule
 .PHONY : panel-plugin/CMakeFiles/zorinmenulite.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ zorinmenulite: panel-plugin/CMakeFiles/zorinmenulite.dir/rule
 
 # fast build rule for target.
 zorinmenulite/fast:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/build
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/build
 .PHONY : zorinmenulite/fast
 
 applications-page.o: applications-page.cpp.o
@@ -180,7 +180,7 @@ applications-page.o: applications-page.cpp.o
 
 # target to build an object file
 applications-page.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o
 .PHONY : applications-page.cpp.o
 
 applications-page.i: applications-page.cpp.i
@@ -188,7 +188,7 @@ applications-page.i: applications-page.cpp.i
 
 # target to preprocess a source file
 applications-page.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.i
 .PHONY : applications-page.cpp.i
 
 applications-page.s: applications-page.cpp.s
@@ -196,7 +196,7 @@ applications-page.s: applications-page.cpp.s
 
 # target to generate assembly for a file
 applications-page.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.s
 .PHONY : applications-page.cpp.s
 
 category-page.o: category-page.cpp.o
@@ -204,7 +204,7 @@ category-page.o: category-page.cpp.o
 
 # target to build an object file
 category-page.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.o
 .PHONY : category-page.cpp.o
 
 category-page.i: category-page.cpp.i
@@ -212,7 +212,7 @@ category-page.i: category-page.cpp.i
 
 # target to preprocess a source file
 category-page.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.i
 .PHONY : category-page.cpp.i
 
 category-page.s: category-page.cpp.s
@@ -220,7 +220,7 @@ category-page.s: category-page.cpp.s
 
 # target to generate assembly for a file
 category-page.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.s
 .PHONY : category-page.cpp.s
 
 category-view.o: category-view.cpp.o
@@ -228,7 +228,7 @@ category-view.o: category-view.cpp.o
 
 # target to build an object file
 category-view.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.o
 .PHONY : category-view.cpp.o
 
 category-view.i: category-view.cpp.i
@@ -236,7 +236,7 @@ category-view.i: category-view.cpp.i
 
 # target to preprocess a source file
 category-view.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.i
 .PHONY : category-view.cpp.i
 
 category-view.s: category-view.cpp.s
@@ -244,7 +244,7 @@ category-view.s: category-view.cpp.s
 
 # target to generate assembly for a file
 category-view.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.s
 .PHONY : category-view.cpp.s
 
 category.o: category.cpp.o
@@ -252,7 +252,7 @@ category.o: category.cpp.o
 
 # target to build an object file
 category.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.o
 .PHONY : category.cpp.o
 
 category.i: category.cpp.i
@@ -260,7 +260,7 @@ category.i: category.cpp.i
 
 # target to preprocess a source file
 category.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.i
 .PHONY : category.cpp.i
 
 category.s: category.cpp.s
@@ -268,7 +268,7 @@ category.s: category.cpp.s
 
 # target to generate assembly for a file
 category.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.s
 .PHONY : category.cpp.s
 
 command.o: command.cpp.o
@@ -276,7 +276,7 @@ command.o: command.cpp.o
 
 # target to build an object file
 command.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o
 .PHONY : command.cpp.o
 
 command.i: command.cpp.i
@@ -284,7 +284,7 @@ command.i: command.cpp.i
 
 # target to preprocess a source file
 command.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.i
 .PHONY : command.cpp.i
 
 command.s: command.cpp.s
@@ -292,7 +292,7 @@ command.s: command.cpp.s
 
 # target to generate assembly for a file
 command.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.s
 .PHONY : command.cpp.s
 
 launcher-view.o: launcher-view.cpp.o
@@ -300,7 +300,7 @@ launcher-view.o: launcher-view.cpp.o
 
 # target to build an object file
 launcher-view.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o
 .PHONY : launcher-view.cpp.o
 
 launcher-view.i: launcher-view.cpp.i
@@ -308,7 +308,7 @@ launcher-view.i: launcher-view.cpp.i
 
 # target to preprocess a source file
 launcher-view.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.i
 .PHONY : launcher-view.cpp.i
 
 launcher-view.s: launcher-view.cpp.s
@@ -316,7 +316,7 @@ launcher-view.s: launcher-view.cpp.s
 
 # target to generate assembly for a file
 launcher-view.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.s
 .PHONY : launcher-view.cpp.s
 
 launcher.o: launcher.cpp.o
@@ -324,7 +324,7 @@ launcher.o: launcher.cpp.o
 
 # target to build an object file
 launcher.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o
 .PHONY : launcher.cpp.o
 
 launcher.i: launcher.cpp.i
@@ -332,7 +332,7 @@ launcher.i: launcher.cpp.i
 
 # target to preprocess a source file
 launcher.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.i
 .PHONY : launcher.cpp.i
 
 launcher.s: launcher.cpp.s
@@ -340,7 +340,7 @@ launcher.s: launcher.cpp.s
 
 # target to generate assembly for a file
 launcher.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.s
 .PHONY : launcher.cpp.s
 
 page.o: page.cpp.o
@@ -348,7 +348,7 @@ page.o: page.cpp.o
 
 # target to build an object file
 page.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.o
 .PHONY : page.cpp.o
 
 page.i: page.cpp.i
@@ -356,7 +356,7 @@ page.i: page.cpp.i
 
 # target to preprocess a source file
 page.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.i
 .PHONY : page.cpp.i
 
 page.s: page.cpp.s
@@ -364,7 +364,7 @@ page.s: page.cpp.s
 
 # target to generate assembly for a file
 page.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.s
 .PHONY : page.cpp.s
 
 place-button.o: place-button.cpp.o
@@ -372,7 +372,7 @@ place-button.o: place-button.cpp.o
 
 # target to build an object file
 place-button.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o
 .PHONY : place-button.cpp.o
 
 place-button.i: place-button.cpp.i
@@ -380,7 +380,7 @@ place-button.i: place-button.cpp.i
 
 # target to preprocess a source file
 place-button.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.i
 .PHONY : place-button.cpp.i
 
 place-button.s: place-button.cpp.s
@@ -388,7 +388,7 @@ place-button.s: place-button.cpp.s
 
 # target to generate assembly for a file
 place-button.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.s
 .PHONY : place-button.cpp.s
 
 plugin.o: plugin.cpp.o
@@ -396,7 +396,7 @@ plugin.o: plugin.cpp.o
 
 # target to build an object file
 plugin.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o
 .PHONY : plugin.cpp.o
 
 plugin.i: plugin.cpp.i
@@ -404,7 +404,7 @@ plugin.i: plugin.cpp.i
 
 # target to preprocess a source file
 plugin.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.i
 .PHONY : plugin.cpp.i
 
 plugin.s: plugin.cpp.s
@@ -412,7 +412,7 @@ plugin.s: plugin.cpp.s
 
 # target to generate assembly for a file
 plugin.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.s
 .PHONY : plugin.cpp.s
 
 query.o: query.cpp.o
@@ -420,7 +420,7 @@ query.o: query.cpp.o
 
 # target to build an object file
 query.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o
 .PHONY : query.cpp.o
 
 query.i: query.cpp.i
@@ -428,7 +428,7 @@ query.i: query.cpp.i
 
 # target to preprocess a source file
 query.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.i
 .PHONY : query.cpp.i
 
 query.s: query.cpp.s
@@ -436,7 +436,7 @@ query.s: query.cpp.s
 
 # target to generate assembly for a file
 query.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.s
 .PHONY : query.cpp.s
 
 register-plugin.o: register-plugin.c.o
@@ -444,7 +444,7 @@ register-plugin.o: register-plugin.c.o
 
 # target to build an object file
 register-plugin.c.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o
 .PHONY : register-plugin.c.o
 
 register-plugin.i: register-plugin.c.i
@@ -452,7 +452,7 @@ register-plugin.i: register-plugin.c.i
 
 # target to preprocess a source file
 register-plugin.c.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.i
 .PHONY : register-plugin.c.i
 
 register-plugin.s: register-plugin.c.s
@@ -460,7 +460,7 @@ register-plugin.s: register-plugin.c.s
 
 # target to generate assembly for a file
 register-plugin.c.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.s
 .PHONY : register-plugin.c.s
 
 run-action.o: run-action.cpp.o
@@ -468,7 +468,7 @@ run-action.o: run-action.cpp.o
 
 # target to build an object file
 run-action.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.o
 .PHONY : run-action.cpp.o
 
 run-action.i: run-action.cpp.i
@@ -476,7 +476,7 @@ run-action.i: run-action.cpp.i
 
 # target to preprocess a source file
 run-action.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.i
 .PHONY : run-action.cpp.i
 
 run-action.s: run-action.cpp.s
@@ -484,7 +484,7 @@ run-action.s: run-action.cpp.s
 
 # target to generate assembly for a file
 run-action.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.s
 .PHONY : run-action.cpp.s
 
 search-action.o: search-action.cpp.o
@@ -492,7 +492,7 @@ search-action.o: search-action.cpp.o
 
 # target to build an object file
 search-action.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o
 .PHONY : search-action.cpp.o
 
 search-action.i: search-action.cpp.i
@@ -500,7 +500,7 @@ search-action.i: search-action.cpp.i
 
 # target to preprocess a source file
 search-action.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.i
 .PHONY : search-action.cpp.i
 
 search-action.s: search-action.cpp.s
@@ -508,7 +508,7 @@ search-action.s: search-action.cpp.s
 
 # target to generate assembly for a file
 search-action.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.s
 .PHONY : search-action.cpp.s
 
 search-page.o: search-page.cpp.o
@@ -516,7 +516,7 @@ search-page.o: search-page.cpp.o
 
 # target to build an object file
 search-page.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o
 .PHONY : search-page.cpp.o
 
 search-page.i: search-page.cpp.i
@@ -524,7 +524,7 @@ search-page.i: search-page.cpp.i
 
 # target to preprocess a source file
 search-page.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.i
 .PHONY : search-page.cpp.i
 
 search-page.s: search-page.cpp.s
@@ -532,7 +532,7 @@ search-page.s: search-page.cpp.s
 
 # target to generate assembly for a file
 search-page.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.s
 .PHONY : search-page.cpp.s
 
 user-button.o: user-button.cpp.o
@@ -540,7 +540,7 @@ user-button.o: user-button.cpp.o
 
 # target to build an object file
 user-button.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.o
 .PHONY : user-button.cpp.o
 
 user-button.i: user-button.cpp.i
@@ -548,7 +548,7 @@ user-button.i: user-button.cpp.i
 
 # target to preprocess a source file
 user-button.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.i
 .PHONY : user-button.cpp.i
 
 user-button.s: user-button.cpp.s
@@ -556,7 +556,7 @@ user-button.s: user-button.cpp.s
 
 # target to generate assembly for a file
 user-button.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.s
 .PHONY : user-button.cpp.s
 
 window.o: window.cpp.o
@@ -564,7 +564,7 @@ window.o: window.cpp.o
 
 # target to build an object file
 window.cpp.o:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o
 .PHONY : window.cpp.o
 
 window.i: window.cpp.i
@@ -572,7 +572,7 @@ window.i: window.cpp.i
 
 # target to preprocess a source file
 window.cpp.i:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.i
 .PHONY : window.cpp.i
 
 window.s: window.cpp.s
@@ -580,7 +580,7 @@ window.s: window.cpp.s
 
 # target to generate assembly for a file
 window.cpp.s:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f panel-plugin/CMakeFiles/zorinmenulite.dir/build.make panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.s
 .PHONY : window.cpp.s
 
 # Help Target
@@ -658,6 +658,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

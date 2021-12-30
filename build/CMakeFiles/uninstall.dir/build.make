@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin
+CMAKE_SOURCE_DIR = /home/hitcoder/winjaromenu-xfce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build
+CMAKE_BINARY_DIR = /home/hitcoder/winjaromenu-xfce/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uninstall.dir/compiler_depend.make
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/cmake/uninstall.cmake
+	/usr/bin/cmake -P /home/hitcoder/winjaromenu-xfce/build/cmake/uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hitcoder/winjaromenu-xfce /home/hitcoder/winjaromenu-xfce /home/hitcoder/winjaromenu-xfce/build /home/hitcoder/winjaromenu-xfce/build /home/hitcoder/winjaromenu-xfce/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

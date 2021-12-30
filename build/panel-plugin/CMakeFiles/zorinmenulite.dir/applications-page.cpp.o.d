@@ -1,8 +1,8 @@
 panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o: \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/applications-page.cpp \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/applications-page.cpp \
  /usr/include/stdc-predef.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/applications-page.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/page.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/applications-page.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/page.h \
  /usr/include/gtk-3.0/gtk/gtk.h /usr/include/gtk-3.0/gdk/gdk.h \
  /usr/include/gtk-3.0/gdk/gdkconfig.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
@@ -763,9 +763,9 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o: \
  /usr/include/garcon-1/garcon/garcon-menu-tree-provider.h \
  /usr/include/garcon-1/garcon/garcon-menu-parser.h \
  /usr/include/garcon-1/garcon/garcon-menu-separator.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/element.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/category.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/element.h \
  /usr/include/exo-2/exo/exo.h /usr/include/glib-2.0/glib/gi18n-lib.h \
  /usr/include/libintl.h /usr/include/exo-2/exo/exo-config.h \
  /usr/include/exo-2/exo/exo-binding.h \
@@ -793,9 +793,9 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o: \
  /usr/include/exo-2/exo/exo-icon-chooser-dialog.h \
  /usr/include/exo-2/exo/exo-icon-view.h \
  /usr/include/exo-2/exo/exo-tree-view.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher-view.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/slot.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/window.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher-view.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/slot.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/window.h \
  /usr/include/c++/11.1.0/algorithm \
  /usr/include/c++/11.1.0/bits/stl_algo.h \
  /usr/include/c++/11.1.0/bits/algorithmfwd.h \

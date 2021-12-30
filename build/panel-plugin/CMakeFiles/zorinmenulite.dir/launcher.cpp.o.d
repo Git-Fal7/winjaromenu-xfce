@@ -1,8 +1,8 @@
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o: \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher.cpp \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher.cpp \
  /usr/include/stdc-predef.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/element.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/element.h \
  /usr/include/exo-2/exo/exo.h /usr/include/glib-2.0/glib/gi18n-lib.h \
  /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
  /usr/include/glib-2.0/glib/gtypes.h \
@@ -781,7 +781,7 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o: \
  /usr/include/garcon-1/garcon/garcon-menu-tree-provider.h \
  /usr/include/garcon-1/garcon/garcon-menu-parser.h \
  /usr/include/garcon-1/garcon/garcon-menu-separator.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/query.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/query.h \
  /usr/include/xfce4/libxfce4ui-2/libxfce4ui/libxfce4ui.h \
  /usr/include/xfce4/libxfce4ui-2/libxfce4ui/libxfce4ui-config.h \
  /usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-dialogs.h \

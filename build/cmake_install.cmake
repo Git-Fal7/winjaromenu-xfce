@@ -1,4 +1,4 @@
-# Install script for directory: /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin
+# Install script for directory: /home/hitcoder/winjaromenu-xfce
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/icons/cmake_install.cmake")
-  include("/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin/cmake_install.cmake")
-  include("/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/cmake_install.cmake")
+  include("/home/hitcoder/winjaromenu-xfce/build/icons/cmake_install.cmake")
+  include("/home/hitcoder/winjaromenu-xfce/build/panel-plugin/cmake_install.cmake")
+  include("/home/hitcoder/winjaromenu-xfce/build/po/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hitcoder/winjaromenu-xfce/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

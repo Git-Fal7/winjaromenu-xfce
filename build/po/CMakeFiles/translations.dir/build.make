@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin
+CMAKE_SOURCE_DIR = /home/hitcoder/winjaromenu-xfce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build
+CMAKE_BINARY_DIR = /home/hitcoder/winjaromenu-xfce/build
 
 # Utility rule file for translations.
 
@@ -74,10 +74,10 @@ po/CMakeFiles/translations.dir/build: translations
 .PHONY : po/CMakeFiles/translations.dir/build
 
 po/CMakeFiles/translations.dir/clean:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && $(CMAKE_COMMAND) -P CMakeFiles/translations.dir/cmake_clean.cmake
+	cd /home/hitcoder/winjaromenu-xfce/build/po && $(CMAKE_COMMAND) -P CMakeFiles/translations.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/translations.dir/clean
 
 po/CMakeFiles/translations.dir/depend:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hitcoder/winjaromenu-xfce /home/hitcoder/winjaromenu-xfce/po /home/hitcoder/winjaromenu-xfce/build /home/hitcoder/winjaromenu-xfce/build/po /home/hitcoder/winjaromenu-xfce/build/po/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/translations.dir/depend
 

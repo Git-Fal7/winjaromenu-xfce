@@ -1,7 +1,7 @@
 panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o: \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/command.cpp \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/command.cpp \
  /usr/include/stdc-predef.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/command.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/command.h \
  /usr/include/gtk-3.0/gtk/gtk.h /usr/include/gtk-3.0/gdk/gdk.h \
  /usr/include/gtk-3.0/gdk/gdkconfig.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
@@ -678,8 +678,8 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o: \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvscrollbar.h \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvseparator.h \
  /usr/include/gtk-3.0/gtk/gtk-autocleanups.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/slot.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/window.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/slot.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/window.h \
  /usr/include/c++/11.1.0/vector \
  /usr/include/c++/11.1.0/bits/stl_algobase.h \
  /usr/include/c++/11.1.0/bits/functexcept.h \

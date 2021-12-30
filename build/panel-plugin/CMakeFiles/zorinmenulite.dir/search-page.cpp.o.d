@@ -1,8 +1,8 @@
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o: \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-page.cpp \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/search-page.cpp \
  /usr/include/stdc-predef.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-page.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/page.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/search-page.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/page.h \
  /usr/include/gtk-3.0/gtk/gtk.h /usr/include/gtk-3.0/gdk/gdk.h \
  /usr/include/gtk-3.0/gdk/gdkconfig.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
@@ -679,7 +679,7 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o: \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvscrollbar.h \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvseparator.h \
  /usr/include/gtk-3.0/gtk/gtk-autocleanups.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/query.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/query.h \
  /usr/include/c++/11.1.0/string /usr/include/c++/11.1.0/bits/stringfwd.h \
  /usr/include/c++/11.1.0/bits/memoryfwd.h \
  /usr/include/c++/11.1.0/bits/char_traits.h \
@@ -740,8 +740,8 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o: \
  /usr/include/c++/11.1.0/bits/stl_vector.h \
  /usr/include/c++/11.1.0/bits/stl_bvector.h \
  /usr/include/c++/11.1.0/bits/vector.tcc \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/run-action.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/element.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/run-action.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/element.h \
  /usr/include/exo-2/exo/exo.h /usr/include/glib-2.0/glib/gi18n-lib.h \
  /usr/include/libintl.h /usr/include/exo-2/exo/exo-config.h \
  /usr/include/exo-2/exo/exo-binding.h \
@@ -769,7 +769,7 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o: \
  /usr/include/exo-2/exo/exo-icon-chooser-dialog.h \
  /usr/include/exo-2/exo/exo-icon-view.h \
  /usr/include/exo-2/exo/exo-tree-view.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher.h \
  /usr/include/garcon-1/garcon/garcon.h \
  /usr/include/garcon-1/garcon/garcon-config.h \
  /usr/include/garcon-1/garcon/garcon-menu-directory.h \
@@ -785,10 +785,10 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o: \
  /usr/include/garcon-1/garcon/garcon-menu-tree-provider.h \
  /usr/include/garcon-1/garcon/garcon-menu-parser.h \
  /usr/include/garcon-1/garcon/garcon-menu-separator.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher-view.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-action.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/slot.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/window.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher-view.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/search-action.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/slot.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/window.h \
  /usr/include/c++/11.1.0/algorithm /usr/include/c++/11.1.0/utility \
  /usr/include/c++/11.1.0/bits/stl_relops.h \
  /usr/include/c++/11.1.0/bits/stl_algo.h \

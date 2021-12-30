@@ -1,8 +1,8 @@
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o: \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-action.cpp \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/search-action.cpp \
  /usr/include/stdc-predef.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-action.h \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/element.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/search-action.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/element.h \
  /usr/include/exo-2/exo/exo.h /usr/include/glib-2.0/glib/gi18n-lib.h \
  /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
  /usr/include/glib-2.0/glib/gtypes.h \
@@ -761,7 +761,7 @@ panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o: \
  /usr/include/c++/11.1.0/cstdio /usr/include/c++/11.1.0/cerrno \
  /usr/include/c++/11.1.0/bits/charconv.h \
  /usr/include/c++/11.1.0/bits/basic_string.tcc \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/query.h \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/query.h \
  /usr/include/c++/11.1.0/vector \
  /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
  /usr/include/c++/11.1.0/bits/stl_vector.h \

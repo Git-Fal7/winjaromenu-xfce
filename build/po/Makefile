@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin
+CMAKE_SOURCE_DIR = /home/hitcoder/winjaromenu-xfce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build
+CMAKE_BINARY_DIR = /home/hitcoder/winjaromenu-xfce/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po//CMakeFiles/progress.marks
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles 0
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hitcoder/winjaromenu-xfce/build/CMakeFiles /home/hitcoder/winjaromenu-xfce/build/po//CMakeFiles/progress.marks
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hitcoder/winjaromenu-xfce/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/clean
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/preinstall
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/preinstall
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 po/CMakeFiles/translations.dir/rule:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/CMakeFiles/translations.dir/rule
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/CMakeFiles/translations.dir/rule
 .PHONY : po/CMakeFiles/translations.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ translations: po/CMakeFiles/translations.dir/rule
 
 # fast build rule for target.
 translations/fast:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f po/CMakeFiles/translations.dir/build.make po/CMakeFiles/translations.dir/build
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f po/CMakeFiles/translations.dir/build.make po/CMakeFiles/translations.dir/build
 .PHONY : translations/fast
 
 # Convenience name for target.
 po/CMakeFiles/translations_1.dir/rule:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/CMakeFiles/translations_1.dir/rule
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 po/CMakeFiles/translations_1.dir/rule
 .PHONY : po/CMakeFiles/translations_1.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ translations_1: po/CMakeFiles/translations_1.dir/rule
 
 # fast build rule for target.
 translations_1/fast:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(MAKE) $(MAKESILENT) -f po/CMakeFiles/translations_1.dir/build.make po/CMakeFiles/translations_1.dir/build
+	cd /home/hitcoder/winjaromenu-xfce/build && $(MAKE) $(MAKESILENT) -f po/CMakeFiles/translations_1.dir/build.make po/CMakeFiles/translations_1.dir/build
 .PHONY : translations_1/fast
 
 # Help Target
@@ -214,6 +214,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

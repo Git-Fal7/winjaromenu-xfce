@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin
+CMAKE_SOURCE_DIR = /home/hitcoder/winjaromenu-xfce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build
+CMAKE_BINARY_DIR = /home/hitcoder/winjaromenu-xfce/build
 
 # Utility rule file for translations_1.
 
@@ -149,483 +149,483 @@ po/CMakeFiles/translations_1: po/zh_TW.gmo
 
 po/af.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/af.gmo: ../po/af.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating af.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/af.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/af.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/af.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating af.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/af.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/af.gmo /home/hitcoder/winjaromenu-xfce/po/af.po
 
 po/am.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/am.gmo: ../po/am.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating am.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/am.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/am.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/am.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating am.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/am.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/am.gmo /home/hitcoder/winjaromenu-xfce/po/am.po
 
 po/an.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/an.gmo: ../po/an.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating an.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/an.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/an.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/an.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating an.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/an.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/an.gmo /home/hitcoder/winjaromenu-xfce/po/an.po
 
 po/ar.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ar.gmo: ../po/ar.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ar.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ar.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ar.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ar.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ar.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ar.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ar.gmo /home/hitcoder/winjaromenu-xfce/po/ar.po
 
 po/as.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/as.gmo: ../po/as.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating as.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/as.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/as.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/as.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating as.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/as.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/as.gmo /home/hitcoder/winjaromenu-xfce/po/as.po
 
 po/ast.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ast.gmo: ../po/ast.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ast.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ast.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ast.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ast.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ast.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ast.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ast.gmo /home/hitcoder/winjaromenu-xfce/po/ast.po
 
 po/be.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/be.gmo: ../po/be.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating be.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/be.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/be.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/be.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating be.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/be.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/be.gmo /home/hitcoder/winjaromenu-xfce/po/be.po
 
 po/bg.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/bg.gmo: ../po/bg.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating bg.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/bg.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/bg.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/bg.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating bg.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/bg.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/bg.gmo /home/hitcoder/winjaromenu-xfce/po/bg.po
 
 po/bn.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/bn.gmo: ../po/bn.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating bn.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/bn.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/bn.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/bn.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating bn.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/bn.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/bn.gmo /home/hitcoder/winjaromenu-xfce/po/bn.po
 
 po/bn_IN.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/bn_IN.gmo: ../po/bn_IN.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating bn_IN.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/bn_IN.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/bn_IN.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/bn_IN.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating bn_IN.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/bn_IN.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/bn_IN.gmo /home/hitcoder/winjaromenu-xfce/po/bn_IN.po
 
 po/bs.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/bs.gmo: ../po/bs.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating bs.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/bs.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/bs.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/bs.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating bs.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/bs.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/bs.gmo /home/hitcoder/winjaromenu-xfce/po/bs.po
 
 po/ca.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ca.gmo: ../po/ca.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ca.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ca.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ca.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ca.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ca.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ca.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ca.gmo /home/hitcoder/winjaromenu-xfce/po/ca.po
 
 po/ca@valencia.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ca@valencia.gmo: ../po/ca@valencia.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ca@valencia.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ca@valencia.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ca@valencia.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ca@valencia.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ca@valencia.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ca@valencia.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ca@valencia.gmo /home/hitcoder/winjaromenu-xfce/po/ca@valencia.po
 
 po/cs.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/cs.gmo: ../po/cs.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating cs.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/cs.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/cs.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/cs.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating cs.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/cs.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/cs.gmo /home/hitcoder/winjaromenu-xfce/po/cs.po
 
 po/da.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/da.gmo: ../po/da.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating da.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/da.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/da.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/da.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating da.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/da.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/da.gmo /home/hitcoder/winjaromenu-xfce/po/da.po
 
 po/de.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/de.gmo: ../po/de.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating de.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/de.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/de.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/de.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating de.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/de.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/de.gmo /home/hitcoder/winjaromenu-xfce/po/de.po
 
 po/el.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/el.gmo: ../po/el.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating el.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/el.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/el.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/el.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating el.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/el.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/el.gmo /home/hitcoder/winjaromenu-xfce/po/el.po
 
 po/en_GB.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/en_GB.gmo: ../po/en_GB.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating en_GB.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/en_GB.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/en_GB.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/en_GB.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating en_GB.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/en_GB.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/en_GB.gmo /home/hitcoder/winjaromenu-xfce/po/en_GB.po
 
 po/eo.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/eo.gmo: ../po/eo.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating eo.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/eo.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/eo.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/eo.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating eo.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/eo.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/eo.gmo /home/hitcoder/winjaromenu-xfce/po/eo.po
 
 po/es.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/es.gmo: ../po/es.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating es.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/es.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/es.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/es.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating es.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/es.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/es.gmo /home/hitcoder/winjaromenu-xfce/po/es.po
 
 po/et.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/et.gmo: ../po/et.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating et.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/et.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/et.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/et.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating et.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/et.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/et.gmo /home/hitcoder/winjaromenu-xfce/po/et.po
 
 po/eu.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/eu.gmo: ../po/eu.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating eu.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/eu.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/eu.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/eu.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating eu.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/eu.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/eu.gmo /home/hitcoder/winjaromenu-xfce/po/eu.po
 
 po/fa.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/fa.gmo: ../po/fa.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating fa.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/fa.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/fa.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/fa.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating fa.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/fa.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/fa.gmo /home/hitcoder/winjaromenu-xfce/po/fa.po
 
 po/fi.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/fi.gmo: ../po/fi.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating fi.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/fi.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/fi.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/fi.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating fi.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/fi.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/fi.gmo /home/hitcoder/winjaromenu-xfce/po/fi.po
 
 po/fr.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/fr.gmo: ../po/fr.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating fr.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/fr.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/fr.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/fr.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating fr.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/fr.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/fr.gmo /home/hitcoder/winjaromenu-xfce/po/fr.po
 
 po/fur.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/fur.gmo: ../po/fur.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating fur.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/fur.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/fur.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/fur.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating fur.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/fur.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/fur.gmo /home/hitcoder/winjaromenu-xfce/po/fur.po
 
 po/ga.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ga.gmo: ../po/ga.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ga.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ga.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ga.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ga.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ga.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ga.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ga.gmo /home/hitcoder/winjaromenu-xfce/po/ga.po
 
 po/gl.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/gl.gmo: ../po/gl.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating gl.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/gl.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/gl.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/gl.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating gl.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/gl.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/gl.gmo /home/hitcoder/winjaromenu-xfce/po/gl.po
 
 po/gu.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/gu.gmo: ../po/gu.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating gu.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/gu.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/gu.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/gu.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating gu.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/gu.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/gu.gmo /home/hitcoder/winjaromenu-xfce/po/gu.po
 
 po/he.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/he.gmo: ../po/he.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating he.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/he.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/he.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/he.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating he.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/he.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/he.gmo /home/hitcoder/winjaromenu-xfce/po/he.po
 
 po/hi.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/hi.gmo: ../po/hi.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating hi.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/hi.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/hi.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/hi.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating hi.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/hi.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/hi.gmo /home/hitcoder/winjaromenu-xfce/po/hi.po
 
 po/hr.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/hr.gmo: ../po/hr.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating hr.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/hr.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/hr.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/hr.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating hr.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/hr.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/hr.gmo /home/hitcoder/winjaromenu-xfce/po/hr.po
 
 po/hu.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/hu.gmo: ../po/hu.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating hu.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/hu.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/hu.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/hu.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating hu.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/hu.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/hu.gmo /home/hitcoder/winjaromenu-xfce/po/hu.po
 
 po/id.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/id.gmo: ../po/id.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating id.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/id.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/id.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/id.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating id.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/id.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/id.gmo /home/hitcoder/winjaromenu-xfce/po/id.po
 
 po/is.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/is.gmo: ../po/is.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating is.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/is.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/is.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/is.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating is.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/is.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/is.gmo /home/hitcoder/winjaromenu-xfce/po/is.po
 
 po/it.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/it.gmo: ../po/it.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating it.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/it.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/it.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/it.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating it.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/it.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/it.gmo /home/hitcoder/winjaromenu-xfce/po/it.po
 
 po/ja.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ja.gmo: ../po/ja.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating ja.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ja.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ja.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ja.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating ja.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ja.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ja.gmo /home/hitcoder/winjaromenu-xfce/po/ja.po
 
 po/kk.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/kk.gmo: ../po/kk.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating kk.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/kk.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/kk.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/kk.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating kk.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/kk.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/kk.gmo /home/hitcoder/winjaromenu-xfce/po/kk.po
 
 po/km.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/km.gmo: ../po/km.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating km.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/km.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/km.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/km.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating km.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/km.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/km.gmo /home/hitcoder/winjaromenu-xfce/po/km.po
 
 po/kn.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/kn.gmo: ../po/kn.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating kn.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/kn.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/kn.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/kn.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating kn.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/kn.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/kn.gmo /home/hitcoder/winjaromenu-xfce/po/kn.po
 
 po/ko.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ko.gmo: ../po/ko.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating ko.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ko.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ko.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ko.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating ko.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ko.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ko.gmo /home/hitcoder/winjaromenu-xfce/po/ko.po
 
 po/ku.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ku.gmo: ../po/ku.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating ku.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ku.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ku.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ku.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating ku.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ku.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ku.gmo /home/hitcoder/winjaromenu-xfce/po/ku.po
 
 po/ky.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ky.gmo: ../po/ky.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating ky.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ky.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ky.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ky.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating ky.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ky.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ky.gmo /home/hitcoder/winjaromenu-xfce/po/ky.po
 
 po/lt.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/lt.gmo: ../po/lt.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating lt.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/lt.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/lt.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/lt.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating lt.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/lt.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/lt.gmo /home/hitcoder/winjaromenu-xfce/po/lt.po
 
 po/lv.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/lv.gmo: ../po/lv.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating lv.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/lv.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/lv.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/lv.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating lv.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/lv.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/lv.gmo /home/hitcoder/winjaromenu-xfce/po/lv.po
 
 po/mk.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/mk.gmo: ../po/mk.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating mk.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/mk.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/mk.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/mk.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating mk.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/mk.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/mk.gmo /home/hitcoder/winjaromenu-xfce/po/mk.po
 
 po/ml.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ml.gmo: ../po/ml.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating ml.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ml.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ml.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ml.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating ml.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ml.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ml.gmo /home/hitcoder/winjaromenu-xfce/po/ml.po
 
 po/mr.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/mr.gmo: ../po/mr.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating mr.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/mr.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/mr.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/mr.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating mr.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/mr.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/mr.gmo /home/hitcoder/winjaromenu-xfce/po/mr.po
 
 po/ms.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ms.gmo: ../po/ms.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating ms.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ms.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ms.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ms.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating ms.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ms.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ms.gmo /home/hitcoder/winjaromenu-xfce/po/ms.po
 
 po/nb.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/nb.gmo: ../po/nb.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating nb.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/nb.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/nb.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/nb.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating nb.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/nb.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/nb.gmo /home/hitcoder/winjaromenu-xfce/po/nb.po
 
 po/ne.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ne.gmo: ../po/ne.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating ne.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ne.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ne.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ne.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating ne.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ne.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ne.gmo /home/hitcoder/winjaromenu-xfce/po/ne.po
 
 po/nl.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/nl.gmo: ../po/nl.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating nl.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/nl.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/nl.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/nl.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating nl.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/nl.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/nl.gmo /home/hitcoder/winjaromenu-xfce/po/nl.po
 
 po/nn.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/nn.gmo: ../po/nn.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating nn.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/nn.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/nn.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/nn.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating nn.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/nn.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/nn.gmo /home/hitcoder/winjaromenu-xfce/po/nn.po
 
 po/oc.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/oc.gmo: ../po/oc.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating oc.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/oc.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/oc.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/oc.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating oc.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/oc.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/oc.gmo /home/hitcoder/winjaromenu-xfce/po/oc.po
 
 po/or.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/or.gmo: ../po/or.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating or.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/or.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/or.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/or.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating or.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/or.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/or.gmo /home/hitcoder/winjaromenu-xfce/po/or.po
 
 po/pa.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/pa.gmo: ../po/pa.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating pa.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/pa.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/pa.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/pa.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating pa.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/pa.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/pa.gmo /home/hitcoder/winjaromenu-xfce/po/pa.po
 
 po/pl.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/pl.gmo: ../po/pl.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating pl.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/pl.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/pl.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/pl.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating pl.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/pl.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/pl.gmo /home/hitcoder/winjaromenu-xfce/po/pl.po
 
 po/pt.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/pt.gmo: ../po/pt.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating pt.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/pt.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/pt.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/pt.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating pt.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/pt.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/pt.gmo /home/hitcoder/winjaromenu-xfce/po/pt.po
 
 po/pt_BR.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/pt_BR.gmo: ../po/pt_BR.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating pt_BR.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/pt_BR.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/pt_BR.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/pt_BR.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating pt_BR.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/pt_BR.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/pt_BR.gmo /home/hitcoder/winjaromenu-xfce/po/pt_BR.po
 
 po/ro.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ro.gmo: ../po/ro.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating ro.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ro.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ro.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ro.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating ro.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ro.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ro.gmo /home/hitcoder/winjaromenu-xfce/po/ro.po
 
 po/ru.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ru.gmo: ../po/ru.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating ru.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ru.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ru.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ru.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating ru.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ru.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ru.gmo /home/hitcoder/winjaromenu-xfce/po/ru.po
 
 po/si.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/si.gmo: ../po/si.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating si.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/si.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/si.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/si.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating si.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/si.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/si.gmo /home/hitcoder/winjaromenu-xfce/po/si.po
 
 po/sk.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/sk.gmo: ../po/sk.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating sk.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sk.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/sk.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sk.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating sk.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/sk.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/sk.gmo /home/hitcoder/winjaromenu-xfce/po/sk.po
 
 po/sl.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/sl.gmo: ../po/sl.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating sl.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sl.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/sl.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sl.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating sl.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/sl.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/sl.gmo /home/hitcoder/winjaromenu-xfce/po/sl.po
 
 po/sr.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/sr.gmo: ../po/sr.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating sr.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sr.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/sr.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sr.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating sr.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/sr.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/sr.gmo /home/hitcoder/winjaromenu-xfce/po/sr.po
 
 po/sr@latin.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/sr@latin.gmo: ../po/sr@latin.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating sr@latin.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sr@latin.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/sr@latin.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sr@latin.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating sr@latin.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/sr@latin.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/sr@latin.gmo /home/hitcoder/winjaromenu-xfce/po/sr@latin.po
 
 po/sv.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/sv.gmo: ../po/sv.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating sv.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sv.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/sv.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/sv.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating sv.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/sv.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/sv.gmo /home/hitcoder/winjaromenu-xfce/po/sv.po
 
 po/ta.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ta.gmo: ../po/ta.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating ta.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ta.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ta.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ta.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating ta.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ta.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ta.gmo /home/hitcoder/winjaromenu-xfce/po/ta.po
 
 po/te.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/te.gmo: ../po/te.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating te.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/te.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/te.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/te.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating te.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/te.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/te.gmo /home/hitcoder/winjaromenu-xfce/po/te.po
 
 po/tg.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/tg.gmo: ../po/tg.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating tg.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/tg.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/tg.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/tg.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating tg.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/tg.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/tg.gmo /home/hitcoder/winjaromenu-xfce/po/tg.po
 
 po/th.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/th.gmo: ../po/th.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating th.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/th.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/th.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/th.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating th.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/th.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/th.gmo /home/hitcoder/winjaromenu-xfce/po/th.po
 
 po/tr.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/tr.gmo: ../po/tr.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating tr.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/tr.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/tr.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/tr.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating tr.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/tr.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/tr.gmo /home/hitcoder/winjaromenu-xfce/po/tr.po
 
 po/ug.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/ug.gmo: ../po/ug.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating ug.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ug.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/ug.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/ug.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating ug.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/ug.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/ug.gmo /home/hitcoder/winjaromenu-xfce/po/ug.po
 
 po/uk.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/uk.gmo: ../po/uk.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating uk.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/uk.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/uk.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/uk.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating uk.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/uk.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/uk.gmo /home/hitcoder/winjaromenu-xfce/po/uk.po
 
 po/uz.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/uz.gmo: ../po/uz.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating uz.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/uz.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/uz.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/uz.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating uz.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/uz.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/uz.gmo /home/hitcoder/winjaromenu-xfce/po/uz.po
 
 po/uz@cyrillic.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/uz@cyrillic.gmo: ../po/uz@cyrillic.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating uz@cyrillic.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/uz@cyrillic.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/uz@cyrillic.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/uz@cyrillic.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating uz@cyrillic.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/uz@cyrillic.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/uz@cyrillic.gmo /home/hitcoder/winjaromenu-xfce/po/uz@cyrillic.po
 
 po/vi.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/vi.gmo: ../po/vi.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating vi.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/vi.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/vi.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/vi.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating vi.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/vi.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/vi.gmo /home/hitcoder/winjaromenu-xfce/po/vi.po
 
 po/zh_CN.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/zh_CN.gmo: ../po/zh_CN.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating zh_CN.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/zh_CN.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/zh_CN.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/zh_CN.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating zh_CN.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/zh_CN.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/zh_CN.gmo /home/hitcoder/winjaromenu-xfce/po/zh_CN.po
 
 po/zh_HK.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/zh_HK.gmo: ../po/zh_HK.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating zh_HK.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/zh_HK.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/zh_HK.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/zh_HK.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating zh_HK.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/zh_HK.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/zh_HK.gmo /home/hitcoder/winjaromenu-xfce/po/zh_HK.po
 
 po/zh_TW.gmo: ../po/xfce4-zorinmenulite-plugin.pot
 po/zh_TW.gmo: ../po/zh_TW.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating zh_TW.gmo"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/zh_TW.po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/xfce4-zorinmenulite-plugin.pot
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && /usr/bin/msgfmt -o /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/zh_TW.gmo /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po/zh_TW.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating zh_TW.gmo"
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgmerge --quiet --update --backup=none -s /home/hitcoder/winjaromenu-xfce/po/zh_TW.po /home/hitcoder/winjaromenu-xfce/po/xfce4-zorinmenulite-plugin.pot
+	cd /home/hitcoder/winjaromenu-xfce/build/po && /usr/bin/msgfmt -o /home/hitcoder/winjaromenu-xfce/build/po/zh_TW.gmo /home/hitcoder/winjaromenu-xfce/po/zh_TW.po
 
 translations_1: po/CMakeFiles/translations_1
 translations_1: po/af.gmo
@@ -716,10 +716,10 @@ po/CMakeFiles/translations_1.dir/build: translations_1
 .PHONY : po/CMakeFiles/translations_1.dir/build
 
 po/CMakeFiles/translations_1.dir/clean:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po && $(CMAKE_COMMAND) -P CMakeFiles/translations_1.dir/cmake_clean.cmake
+	cd /home/hitcoder/winjaromenu-xfce/build/po && $(CMAKE_COMMAND) -P CMakeFiles/translations_1.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/translations_1.dir/clean
 
 po/CMakeFiles/translations_1.dir/depend:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/po/CMakeFiles/translations_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hitcoder/winjaromenu-xfce /home/hitcoder/winjaromenu-xfce/po /home/hitcoder/winjaromenu-xfce/build /home/hitcoder/winjaromenu-xfce/build/po /home/hitcoder/winjaromenu-xfce/build/po/CMakeFiles/translations_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/translations_1.dir/depend
 

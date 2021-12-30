@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 2.8)
 
 message("Uninstall the project...")
 
-if(NOT EXISTS "/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/install_manifest.txt\"")
+if(NOT EXISTS "/home/hitcoder/winjaromenu-xfce/build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/hitcoder/winjaromenu-xfce/build/install_manifest.txt\"")
 endif()
 
-file(READ "/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/install_manifest.txt" files)
+file(READ "/home/hitcoder/winjaromenu-xfce/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 list(REVERSE files)
 foreach (file ${files})

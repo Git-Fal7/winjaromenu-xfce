@@ -1,5 +1,5 @@
 panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o: \
- /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/register-plugin.c \
+ /home/hitcoder/winjaromenu-xfce/panel-plugin/register-plugin.c \
  /usr/include/stdc-predef.h \
  /usr/include/xfce4/libxfce4panel-2.0/libxfce4panel/libxfce4panel.h \
  /usr/include/gtk-3.0/gtk/gtk.h /usr/include/gtk-3.0/gdk/gdk.h \

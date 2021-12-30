@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin
+CMAKE_SOURCE_DIR = /home/hitcoder/winjaromenu-xfce
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build
+CMAKE_BINARY_DIR = /home/hitcoder/winjaromenu-xfce/build
 
 # Include any dependencies generated for this target.
 include panel-plugin/CMakeFiles/zorinmenulite.dir/depend.make
@@ -72,240 +72,240 @@ include panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o: ../panel-plugin/applications-page.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o -MF CMakeFiles/zorinmenulite.dir/applications-page.cpp.o.d -o CMakeFiles/zorinmenulite.dir/applications-page.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/applications-page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.o -MF CMakeFiles/zorinmenulite.dir/applications-page.cpp.o.d -o CMakeFiles/zorinmenulite.dir/applications-page.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/applications-page.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/applications-page.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/applications-page.cpp > CMakeFiles/zorinmenulite.dir/applications-page.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/applications-page.cpp > CMakeFiles/zorinmenulite.dir/applications-page.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/applications-page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/applications-page.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/applications-page.cpp -o CMakeFiles/zorinmenulite.dir/applications-page.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/applications-page.cpp -o CMakeFiles/zorinmenulite.dir/applications-page.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.o: ../panel-plugin/category.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.o -MF CMakeFiles/zorinmenulite.dir/category.cpp.o.d -o CMakeFiles/zorinmenulite.dir/category.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.o -MF CMakeFiles/zorinmenulite.dir/category.cpp.o.d -o CMakeFiles/zorinmenulite.dir/category.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/category.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/category.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category.cpp > CMakeFiles/zorinmenulite.dir/category.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/category.cpp > CMakeFiles/zorinmenulite.dir/category.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/category.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/category.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category.cpp -o CMakeFiles/zorinmenulite.dir/category.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/category.cpp -o CMakeFiles/zorinmenulite.dir/category.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.o: ../panel-plugin/category-page.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.o -MF CMakeFiles/zorinmenulite.dir/category-page.cpp.o.d -o CMakeFiles/zorinmenulite.dir/category-page.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category-page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.o -MF CMakeFiles/zorinmenulite.dir/category-page.cpp.o.d -o CMakeFiles/zorinmenulite.dir/category-page.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/category-page.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/category-page.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category-page.cpp > CMakeFiles/zorinmenulite.dir/category-page.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/category-page.cpp > CMakeFiles/zorinmenulite.dir/category-page.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/category-page.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category-page.cpp -o CMakeFiles/zorinmenulite.dir/category-page.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/category-page.cpp -o CMakeFiles/zorinmenulite.dir/category-page.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.o: ../panel-plugin/category-view.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.o -MF CMakeFiles/zorinmenulite.dir/category-view.cpp.o.d -o CMakeFiles/zorinmenulite.dir/category-view.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category-view.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.o -MF CMakeFiles/zorinmenulite.dir/category-view.cpp.o.d -o CMakeFiles/zorinmenulite.dir/category-view.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/category-view.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/category-view.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category-view.cpp > CMakeFiles/zorinmenulite.dir/category-view.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/category-view.cpp > CMakeFiles/zorinmenulite.dir/category-view.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/category-view.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/category-view.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/category-view.cpp -o CMakeFiles/zorinmenulite.dir/category-view.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/category-view.cpp -o CMakeFiles/zorinmenulite.dir/category-view.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o: ../panel-plugin/command.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o -MF CMakeFiles/zorinmenulite.dir/command.cpp.o.d -o CMakeFiles/zorinmenulite.dir/command.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.o -MF CMakeFiles/zorinmenulite.dir/command.cpp.o.d -o CMakeFiles/zorinmenulite.dir/command.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/command.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/command.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/command.cpp > CMakeFiles/zorinmenulite.dir/command.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/command.cpp > CMakeFiles/zorinmenulite.dir/command.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/command.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/command.cpp -o CMakeFiles/zorinmenulite.dir/command.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/command.cpp -o CMakeFiles/zorinmenulite.dir/command.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o: ../panel-plugin/launcher.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o -MF CMakeFiles/zorinmenulite.dir/launcher.cpp.o.d -o CMakeFiles/zorinmenulite.dir/launcher.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.o -MF CMakeFiles/zorinmenulite.dir/launcher.cpp.o.d -o CMakeFiles/zorinmenulite.dir/launcher.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/launcher.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher.cpp > CMakeFiles/zorinmenulite.dir/launcher.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher.cpp > CMakeFiles/zorinmenulite.dir/launcher.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/launcher.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher.cpp -o CMakeFiles/zorinmenulite.dir/launcher.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher.cpp -o CMakeFiles/zorinmenulite.dir/launcher.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o: ../panel-plugin/launcher-view.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o -MF CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o.d -o CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher-view.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o -MF CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o.d -o CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher-view.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/launcher-view.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher-view.cpp > CMakeFiles/zorinmenulite.dir/launcher-view.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher-view.cpp > CMakeFiles/zorinmenulite.dir/launcher-view.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/launcher-view.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/launcher-view.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/launcher-view.cpp -o CMakeFiles/zorinmenulite.dir/launcher-view.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/launcher-view.cpp -o CMakeFiles/zorinmenulite.dir/launcher-view.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.o: ../panel-plugin/page.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.o -MF CMakeFiles/zorinmenulite.dir/page.cpp.o.d -o CMakeFiles/zorinmenulite.dir/page.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.o -MF CMakeFiles/zorinmenulite.dir/page.cpp.o.d -o CMakeFiles/zorinmenulite.dir/page.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/page.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/page.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/page.cpp > CMakeFiles/zorinmenulite.dir/page.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/page.cpp > CMakeFiles/zorinmenulite.dir/page.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/page.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/page.cpp -o CMakeFiles/zorinmenulite.dir/page.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/page.cpp -o CMakeFiles/zorinmenulite.dir/page.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o: ../panel-plugin/plugin.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o -MF CMakeFiles/zorinmenulite.dir/plugin.cpp.o.d -o CMakeFiles/zorinmenulite.dir/plugin.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.o -MF CMakeFiles/zorinmenulite.dir/plugin.cpp.o.d -o CMakeFiles/zorinmenulite.dir/plugin.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/plugin.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/plugin.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/plugin.cpp > CMakeFiles/zorinmenulite.dir/plugin.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/plugin.cpp > CMakeFiles/zorinmenulite.dir/plugin.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/plugin.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/plugin.cpp -o CMakeFiles/zorinmenulite.dir/plugin.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/plugin.cpp -o CMakeFiles/zorinmenulite.dir/plugin.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.o: ../panel-plugin/user-button.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.o -MF CMakeFiles/zorinmenulite.dir/user-button.cpp.o.d -o CMakeFiles/zorinmenulite.dir/user-button.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/user-button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.o -MF CMakeFiles/zorinmenulite.dir/user-button.cpp.o.d -o CMakeFiles/zorinmenulite.dir/user-button.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/user-button.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/user-button.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/user-button.cpp > CMakeFiles/zorinmenulite.dir/user-button.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/user-button.cpp > CMakeFiles/zorinmenulite.dir/user-button.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/user-button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/user-button.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/user-button.cpp -o CMakeFiles/zorinmenulite.dir/user-button.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/user-button.cpp -o CMakeFiles/zorinmenulite.dir/user-button.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o: ../panel-plugin/query.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o -MF CMakeFiles/zorinmenulite.dir/query.cpp.o.d -o CMakeFiles/zorinmenulite.dir/query.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/query.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.o -MF CMakeFiles/zorinmenulite.dir/query.cpp.o.d -o CMakeFiles/zorinmenulite.dir/query.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/query.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/query.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/query.cpp > CMakeFiles/zorinmenulite.dir/query.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/query.cpp > CMakeFiles/zorinmenulite.dir/query.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/query.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/query.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/query.cpp -o CMakeFiles/zorinmenulite.dir/query.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/query.cpp -o CMakeFiles/zorinmenulite.dir/query.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o: ../panel-plugin/register-plugin.c
 panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o -MF CMakeFiles/zorinmenulite.dir/register-plugin.c.o.d -o CMakeFiles/zorinmenulite.dir/register-plugin.c.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/register-plugin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.o -MF CMakeFiles/zorinmenulite.dir/register-plugin.c.o.d -o CMakeFiles/zorinmenulite.dir/register-plugin.c.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/register-plugin.c
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zorinmenulite.dir/register-plugin.c.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/register-plugin.c > CMakeFiles/zorinmenulite.dir/register-plugin.c.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/register-plugin.c > CMakeFiles/zorinmenulite.dir/register-plugin.c.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/register-plugin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zorinmenulite.dir/register-plugin.c.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/register-plugin.c -o CMakeFiles/zorinmenulite.dir/register-plugin.c.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/register-plugin.c -o CMakeFiles/zorinmenulite.dir/register-plugin.c.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.o: ../panel-plugin/run-action.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.o -MF CMakeFiles/zorinmenulite.dir/run-action.cpp.o.d -o CMakeFiles/zorinmenulite.dir/run-action.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/run-action.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.o -MF CMakeFiles/zorinmenulite.dir/run-action.cpp.o.d -o CMakeFiles/zorinmenulite.dir/run-action.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/run-action.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/run-action.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/run-action.cpp > CMakeFiles/zorinmenulite.dir/run-action.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/run-action.cpp > CMakeFiles/zorinmenulite.dir/run-action.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/run-action.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/run-action.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/run-action.cpp -o CMakeFiles/zorinmenulite.dir/run-action.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/run-action.cpp -o CMakeFiles/zorinmenulite.dir/run-action.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o: ../panel-plugin/search-action.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o -MF CMakeFiles/zorinmenulite.dir/search-action.cpp.o.d -o CMakeFiles/zorinmenulite.dir/search-action.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-action.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.o -MF CMakeFiles/zorinmenulite.dir/search-action.cpp.o.d -o CMakeFiles/zorinmenulite.dir/search-action.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/search-action.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/search-action.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-action.cpp > CMakeFiles/zorinmenulite.dir/search-action.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/search-action.cpp > CMakeFiles/zorinmenulite.dir/search-action.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-action.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/search-action.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-action.cpp -o CMakeFiles/zorinmenulite.dir/search-action.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/search-action.cpp -o CMakeFiles/zorinmenulite.dir/search-action.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o: ../panel-plugin/search-page.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o -MF CMakeFiles/zorinmenulite.dir/search-page.cpp.o.d -o CMakeFiles/zorinmenulite.dir/search-page.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.o -MF CMakeFiles/zorinmenulite.dir/search-page.cpp.o.d -o CMakeFiles/zorinmenulite.dir/search-page.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/search-page.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/search-page.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-page.cpp > CMakeFiles/zorinmenulite.dir/search-page.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/search-page.cpp > CMakeFiles/zorinmenulite.dir/search-page.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/search-page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/search-page.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/search-page.cpp -o CMakeFiles/zorinmenulite.dir/search-page.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/search-page.cpp -o CMakeFiles/zorinmenulite.dir/search-page.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o: ../panel-plugin/place-button.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o -MF CMakeFiles/zorinmenulite.dir/place-button.cpp.o.d -o CMakeFiles/zorinmenulite.dir/place-button.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/place-button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.o -MF CMakeFiles/zorinmenulite.dir/place-button.cpp.o.d -o CMakeFiles/zorinmenulite.dir/place-button.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/place-button.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/place-button.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/place-button.cpp > CMakeFiles/zorinmenulite.dir/place-button.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/place-button.cpp > CMakeFiles/zorinmenulite.dir/place-button.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/place-button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/place-button.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/place-button.cpp -o CMakeFiles/zorinmenulite.dir/place-button.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/place-button.cpp -o CMakeFiles/zorinmenulite.dir/place-button.cpp.s
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/flags.make
 panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o: ../panel-plugin/window.cpp
 panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o: panel-plugin/CMakeFiles/zorinmenulite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o -MF CMakeFiles/zorinmenulite.dir/window.cpp.o.d -o CMakeFiles/zorinmenulite.dir/window.cpp.o -c /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o -MF CMakeFiles/zorinmenulite.dir/window.cpp.o.d -o CMakeFiles/zorinmenulite.dir/window.cpp.o -c /home/hitcoder/winjaromenu-xfce/panel-plugin/window.cpp
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zorinmenulite.dir/window.cpp.i"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/window.cpp > CMakeFiles/zorinmenulite.dir/window.cpp.i
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hitcoder/winjaromenu-xfce/panel-plugin/window.cpp > CMakeFiles/zorinmenulite.dir/window.cpp.i
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zorinmenulite.dir/window.cpp.s"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin/window.cpp -o CMakeFiles/zorinmenulite.dir/window.cpp.s
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hitcoder/winjaromenu-xfce/panel-plugin/window.cpp -o CMakeFiles/zorinmenulite.dir/window.cpp.s
 
 # Object files for target zorinmenulite
 zorinmenulite_OBJECTS = \
@@ -349,18 +349,18 @@ panel-plugin/libzorinmenulite.so: panel-plugin/CMakeFiles/zorinmenulite.dir/plac
 panel-plugin/libzorinmenulite.so: panel-plugin/CMakeFiles/zorinmenulite.dir/window.cpp.o
 panel-plugin/libzorinmenulite.so: panel-plugin/CMakeFiles/zorinmenulite.dir/build.make
 panel-plugin/libzorinmenulite.so: panel-plugin/CMakeFiles/zorinmenulite.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared module libzorinmenulite.so"
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zorinmenulite.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hitcoder/winjaromenu-xfce/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared module libzorinmenulite.so"
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zorinmenulite.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 panel-plugin/CMakeFiles/zorinmenulite.dir/build: panel-plugin/libzorinmenulite.so
 .PHONY : panel-plugin/CMakeFiles/zorinmenulite.dir/build
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/clean:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin && $(CMAKE_COMMAND) -P CMakeFiles/zorinmenulite.dir/cmake_clean.cmake
+	cd /home/hitcoder/winjaromenu-xfce/build/panel-plugin && $(CMAKE_COMMAND) -P CMakeFiles/zorinmenulite.dir/cmake_clean.cmake
 .PHONY : panel-plugin/CMakeFiles/zorinmenulite.dir/clean
 
 panel-plugin/CMakeFiles/zorinmenulite.dir/depend:
-	cd /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/panel-plugin /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin /home/hitcoder/Downloads/xfce4-zorinmenulite-plugin/build/panel-plugin/CMakeFiles/zorinmenulite.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hitcoder/winjaromenu-xfce/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hitcoder/winjaromenu-xfce /home/hitcoder/winjaromenu-xfce/panel-plugin /home/hitcoder/winjaromenu-xfce/build /home/hitcoder/winjaromenu-xfce/build/panel-plugin /home/hitcoder/winjaromenu-xfce/build/panel-plugin/CMakeFiles/zorinmenulite.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : panel-plugin/CMakeFiles/zorinmenulite.dir/depend
 
