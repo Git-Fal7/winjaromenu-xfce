@@ -1,7 +1,7 @@
 # Winjaromenu XFCE
 A fork of ZorinMenuLite with changes to make it something more to my personal preferences.
 
-![Screenshot]](https://cdn.discordapp.com/attachments/925924538888372255/925965198236463104/unknown.png)
+![Screenshot](https://cdn.discordapp.com/attachments/925924538888372255/925965198236463104/unknown.png)
 
 ## About
 
