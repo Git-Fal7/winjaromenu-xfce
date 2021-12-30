@@ -8,6 +8,9 @@ A fork of ZorinMenuLite with changes to make it something more to my personal pr
 A menu formatted similarly to Windows Vista and Windows 7 with some minor changes.
 The menu features categories, places links, shortcuts, and a search bar.
 
+## Installing
+Clone the repository and mark install.sh as executable. Run install.sh from command line. 
+
 ## Keyboard shortcut
 This menu is developed with Manjaro linux in mind, which has built in mapping of super to Alt+F1.
 Command: `xfce4-popup-zorinmenulite`
