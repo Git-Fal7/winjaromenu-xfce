@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/zorinmenulite.dir/applications-page.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/applications-page.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/category-page.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/category-page.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/category-view.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/category-view.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/category.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/category.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/command.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/command.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/launcher-view.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/launcher.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/launcher.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/page.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/page.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/place-button.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/place-button.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/plugin.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/plugin.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/query.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/query.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/register-plugin.c.o"
+  "CMakeFiles/zorinmenulite.dir/register-plugin.c.o.d"
+  "CMakeFiles/zorinmenulite.dir/run-action.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/run-action.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/search-action.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/search-action.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/search-page.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/search-page.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/user-button.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/user-button.cpp.o.d"
+  "CMakeFiles/zorinmenulite.dir/window.cpp.o"
+  "CMakeFiles/zorinmenulite.dir/window.cpp.o.d"
+  "libzorinmenulite.pdb"
+  "libzorinmenulite.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/zorinmenulite.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
