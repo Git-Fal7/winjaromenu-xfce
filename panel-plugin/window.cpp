@@ -125,11 +125,8 @@ ZorinMenuLite::Window::Window(Plugin* plugin) :
 
 	// Create quicklink commands
 	m_quicklinks[0] = new Command("utilities-terminal-symbolic",_("Terminal"), "exo-open --launch TerminalEmulator", _("Failed to open terminal emulator."), true, this);
-	m_quicklinks[1] = new Command("gnome-software-symbolic",_("Software"), "pamac-manager", _("Failed to open Software."), true, this);
-	m_quicklinks[2] = new Command("desktop-profiler-symbolic",_("Panel Layout"), "xfce4-panel-profiles", _("Failed to open panel profiles manager."), true, this);
-	m_quicklinks[3] = new Command("preferences-system-symbolic",_("Settings"), "xfce4-settings-manager", _("Failed to open settings manager."), true, this);
-	m_quicklinks[4] = new Command("distributor-logo-manjaro-symbolic",_("Manjaro Settings"), "manjaro-settings-manager", _("Failed to open Manjaro setting manager."), true, this);
-	m_quicklinks[5] = new Command("utilities-system-monitor-symbolic",_("Task Manager"), "xfce4-taskmanager", _("Failed to open xfce task manager"), true, this);
+	m_quicklinks[1] = new Command("gnome-software-symbolic",_("Software"), "gnome-software", _("Failed to open Software."), true, this);
+	m_quicklinks[2] = new Command("preferences-system-symbolic",_("Settings"), "xfce4-settings-manager", _("Failed to open settings manager."), true, this);
 
 	// Create quicklink buttons
 	for (int i = 0; i < sizeof(m_quicklinks)/sizeof(m_quicklinks[0]); ++i)
