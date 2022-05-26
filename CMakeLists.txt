@@ -27,7 +27,7 @@ option(ENABLE_DEVELOPER_MODE "Enable strict checks to help with development" OFF
 
 include(GNUInstallDirs)
 
-add_subdirectory(icons)
+# add_subdirectory(icons)
 add_subdirectory(panel-plugin)
 add_subdirectory(po)
 
