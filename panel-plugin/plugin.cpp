@@ -237,7 +237,7 @@ void Plugin::show_about()
 		"comments", _("The default application menu in Zorin OS Lite"),
 		"copyright", _("Copyright \302\251 2013-2021 The Zorin Menu Lite authors"),
 		"license", XFCE_LICENSE_GPL,
-		"logo-icon-name", "xfce4-zorinmenulite",
+		"logo-icon-name", "start-here",
 		"program-name", "Zorin Menu Lite",
 		"translator-credits", _("translator-credits"),
 		"version", PACKAGE_VERSION,
