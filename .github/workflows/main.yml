@@ -28,12 +28,13 @@ jobs:
         run: |
           cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr
           make
-          make DESTDIR=".buildpkg/" install
+          make DESTDIR=".debpkg/" install
+          cp -r .debpkg/ .rpmpkg/
           
       - uses: jiro4989/build-deb-action@v2
         with:
           package: ${{ env.APP_NAME }}
-          package_root: .buildpkg
+          package_root: .debpkg
           maintainer: ${{ env.MAINTAINER }}
           depends: ${{ env.DEPENDS }}
           version: ${{ env.APP_VERSION }}
@@ -50,7 +51,7 @@ jobs:
         with:
           summary: 'fork of zorinmenulite XFCE Plugin'
           package: ${{ env.APP_NAME }}
-          package_root: .buildpkg
+          package_root: .rpmpkg
           maintainer: ${{ env.MAINTAINER }}
           version: ${{ env.APP_VERSION }}
           arch: 'x86_64'
