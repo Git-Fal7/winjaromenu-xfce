@@ -31,7 +31,8 @@ jobs:
           cmake .. -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr
           make
           make DESTDIR="../.debpkg/" install
-          rm -rf ./build/
+          rm -rf ../build/
+          cd ..
           mkdir -p build
           cd build/
           cmake .. -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_PREFIX=lib64
