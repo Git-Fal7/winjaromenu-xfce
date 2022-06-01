@@ -112,4 +112,4 @@ configure_file(${PROJECT_SOURCE_DIR}/panel-plugin/xfce4-popup-zorinmenulite.in
 	${PROJECT_BINARY_DIR}/xfce4-popup-zorinmenulite ESCAPE_QUOTES @ONLY)
 install(PROGRAMS ${PROJECT_BINARY_DIR}/xfce4-popup-zorinmenulite
 	DESTINATION ${CMAKE_INSTALL_BINDIR})
-install(FILES xfce4-popup-zorinmenulite.1 DESTINATION ${CMAKE_INSTALL_MANDIR}/man1 COMPONENT doc)
+# install(FILES xfce4-popup-zorinmenulite.1 DESTINATION ${CMAKE_INSTALL_MANDIR}/man1 COMPONENT doc)
