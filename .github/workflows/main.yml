@@ -21,24 +21,24 @@ jobs:
           sudo apt-get install ${{ env.DEV_DEPENDS }}
       - name: Create Folders
         run: |
-          mkdir -p build
+          mkdir -p builddeb
+          mkdir -p buildrpm
           mkdir -p .debpkg/usr/
           mkdir -p .rpmpkg/usr/
         
-      - name: Build using cmake
+      - name: Build the deb directory
         run: |
-          cd build/
+          cd builddeb/
           cmake .. -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr
           make
           make DESTDIR="../.debpkg/" install
-          cd ..
-          rm -rf ./build/
-          mkdir -p build
-          cd build/
+
+      - name: Build the rpm directory
+        run: |
+          cd buildrpm/
           cmake .. -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_PREFIX=lib64
           make
           make DESTDIR="../.rpmpkg/" install
-          cd ..
           
       - uses: jiro4989/build-deb-action@v2
         with:
