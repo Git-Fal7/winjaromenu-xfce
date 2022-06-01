@@ -23,13 +23,16 @@ jobs:
         run: |
           mkdir -p build
           mkdir -p .debpkg/usr/
+          mkdir -p .rpmpkg/usr/
         
       - name: Build using cmake
         run: |
           cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr
           make
           make DESTDIR=".debpkg/" install
-          cp -r .debpkg/ .rpmpkg/
+          cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_PREFIX=lib64
+          make
+          make DESTDIR=".rpmpkg/" install
           
       - uses: jiro4989/build-deb-action@v2
         with:
@@ -46,9 +49,10 @@ jobs:
           name: artifact-deb
           path: |
             ./*.deb
+
       - uses: jiro4989/build-rpm-action@v2
         with:
-          summary: 'fork of zorinmenulite XFCE Plugin'
+          summary: '${{ env.DESC }}'
           package: ${{ env.APP_NAME }}
           package_root: .rpmpkg
           maintainer: ${{ env.MAINTAINER }}
