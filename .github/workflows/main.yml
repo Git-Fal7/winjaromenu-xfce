@@ -1,4 +1,4 @@
-name: build deb
+name: build packages
 
 on: [ create, push, pull_request ]
 
@@ -28,12 +28,12 @@ jobs:
         run: |
           cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr
           make
-          make DESTDIR=".debpkg/" install
+          make DESTDIR=".buildpkg/" install
           
       - uses: jiro4989/build-deb-action@v2
         with:
           package: ${{ env.APP_NAME }}
-          package_root: .debpkg
+          package_root: .buildpkg
           maintainer: ${{ env.MAINTAINER }}
           depends: ${{ env.DEPENDS }}
           version: ${{ env.APP_VERSION }}
@@ -46,3 +46,18 @@ jobs:
           path: |
             ./*.deb
 
+      - uses: jiro4989/build-rpm-action@v2
+        with:
+          summary: 'fork of zorinmenulite XFCE Plugin'
+          package: ${{ env.APP_NAME }}
+          package_root: .buildpkg
+          maintainer: ${{ env.MAINTAINER }}
+          version: ${{ env.APP_VERSION }}
+          arch: 'x86_64'
+          desc: '${{ env.DESC }}'
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: artifact-rpm
+          path: |
+            ./*.rpm
