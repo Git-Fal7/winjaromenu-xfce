@@ -27,12 +27,16 @@ jobs:
         
       - name: Build using cmake
         run: |
-          cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr
+          cd build/
+          cmake .. -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr
           make
-          make DESTDIR=".debpkg/" install
-          cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_PREFIX=lib64
+          make DESTDIR="../.debpkg/" install
+          rm -rf ./build/
+          mkdir -p build
+          cd build/
+          cmake .. -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_PREFIX=lib64
           make
-          make DESTDIR=".rpmpkg/" install
+          make DESTDIR="../.rpmpkg/" install
           
       - uses: jiro4989/build-deb-action@v2
         with:
